@@ -1,0 +1,92 @@
+	* {
+		padding: 0;
+		margin: 0;
+		box-sizing : border-box;
+
+	}
+
+
+	textarea:focus, input:focus{
+    outline: none;
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+	}
+
+	#container {
+		max-width: 1000px;
+		margin: 1em auto;
+	    padding: 1em;
+	}
+    
+	.flex_container {
+		display: flex;
+    	flex-flow: row wrap;
+    	border: 2px solid rgba(128, 128, 128, 0.62);
+	}
+
+	.title_container{
+		  flex: 0 0 100%;
+		  font-size: 2em;
+		  padding: 0.3em;
+		  margin: 0;
+		  text-align: center;
+		  background: gray;
+		  color: #fff; 
+	}
+
+	.list_container {
+		flex: 50%;
+		text-align:center;
+		color: #ffsf;
+		font-size: 24px;
+	}
+
+	.pros_container {
+		border-right: 2px solid rgba(128, 128, 128, 0.62);
+	}
+
+	.pros_title, .cons_title {
+		font-size: 24px;
+		padding: 5px;
+		border-bottom: 2px solid rgba(128, 128, 128, 0.62);
+	}
+
+	.list_inner_container {
+		padding: 4%;
+		height: 500px;
+		overflow-y: auto;
+	}
+
+	.list_item_container > label{
+		width: 5%;
+		text-align: left;
+	}
+
+	input {
+		width: 65%;
+		min-height: 40px;
+       
+	}
+
+	.add_input{
+		width: 90%;
+		border: 1px solid rgba(128, 128, 128, 0.18);
+		background: rgba(128, 128, 128, 0.08);
+	}
+
+	.show_list_inp {
+		border: none;
+	}
+
+	input:hover {
+		background: #e1eaea;
+		border: none;
+	}
+	
+	button {
+    width: 10%;
+    min-height: 40px;
+    border: none;
+    background: none;
+	}
