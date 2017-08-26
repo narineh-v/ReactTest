@@ -10,7 +10,7 @@ Requirements:
 To run the app locally:
 
 ```bash
-git clone https://github.com/mzabriskie/react-example.git
+git clone https://github.com/narineh-v/ReactTest.git
 cd react-example
 npm run setup
 npm run dev
@@ -21,7 +21,4 @@ open http://localhost:8080
 [webpack]: http://webpack.github.io/
 [babeljs]: https://babeljs.io/
 
-Hellbfbfo, my name is Narine!
-ccscsc
-sfs
-dvd
+
